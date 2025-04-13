@@ -5,7 +5,7 @@
 ## Features
 
 - Clean and responsive design
-- Easy-to-navigate homepage with article links
 - Separate pages for each article
-- Lightweight and fast
-- Hosted for free with GitHub Pages
+- Reliable and trusted information
+  We always ensure that the information given is true . All the information written here is taken from multiple resources with top quality researching
+  SHINE WITH DAILY INFORMATION !
