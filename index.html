@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sunrise - Articles</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Sunrise</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Categories</h2>
+    <div class="tabs">
+      <a href="#">Politics</a>
+      <a href="#">Religion</a>
+      <a href="#">Agreements</a>
+      <a href="#">Tourism</a>
+      <a href="#">Announcements</a>
+      <a href="#">Crime</a>
+      <a href="#">Psychology</a>
+      <a href="#">Education</a>
+      <a href="#">Philosophy</a>
+      <a href="#">Statics and Reports</a>
+    </div>
+
+    <h3>Recent Articles</h3>
+    <ul class="article-list">
+      <li><a href="articles/article1.html">What is Electricity?</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>© 2025 Sunrise</p>
+  </footer>
+</body>
+</html>
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.tabs a {
+  padding: 0.5rem 1rem;
+  background-color: #eee;
+  color: #333;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.tabs a:hover {
+  background-color: #ddd;
+} 
